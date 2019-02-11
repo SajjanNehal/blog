@@ -3,8 +3,6 @@ capybara-*.html
 .rspec
 /log
 /tmp
-/db/*.sqlite3
-/db/*.sqlite3-journal
 /public/system
 /coverage/
 /spec/tmp
@@ -56,10 +54,6 @@ node_modules/
 # Ignore bundler config.
 /.bundle
 
-# Ignore the default SQLite database.
-/db/*.sqlite3
-/db/*.sqlite3-journal
-
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -81,3 +75,5 @@ node_modules/
 blog.iml
 blog.ipr
 blog.iws
+/.ideaDataSources/
+/dataSources/
